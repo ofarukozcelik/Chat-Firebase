@@ -4,8 +4,10 @@ import RoomPage from "./pages/RoomPage";
 import ChatPage from "./pages/ChatPage";
 
 function App() {
+  
   const [isAuth, setIsAuth] = useState(localStorage.getItem("token"));
   const [room, setRoom] = useState(null);
+  
 
   // Kullanıcının yetkisi yoksa: login sayfasına git
   if (!isAuth) {

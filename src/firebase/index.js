@@ -5,9 +5,11 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
+
+
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCJQhhSkWE9zYSUdveByuqqbe1dSRu7t04",
+  apiKey: APIKEY,
   authDomain: "chat-c4e3e.firebaseapp.com",
   projectId: "chat-c4e3e",
   storageBucket: "chat-c4e3e.appspot.com",
